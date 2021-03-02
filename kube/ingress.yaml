@@ -1,0 +1,8 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: vehicle-api-ingress
+spec:
+  backend:
+    serviceName: vehicle-api
+    servicePort: 80
